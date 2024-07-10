@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec-1-img{
+    width: 26%;
+    left: 16%;
+    top: 100px;
+}
+.sec-2-img{
+    width: 23%;
+    bottom: 55px;
+    right: 8%;
+}
+.main-txt{
+    padding-top: 390px;
+    padding-left: 100px;
+}
+.main-txt-first{
+    font-size: 40px;
+    font-weight: 900;
+}

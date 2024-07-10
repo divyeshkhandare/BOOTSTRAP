@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/Fonts/Jost-SemiBold.woff2') format('woff2');
+    font-style: normal;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost';
+    box-sizing: border-box;
+}
+
+.name{
+    font-size: 347px;
+    margin-top: -50px;
+}
+
+.menu-ul li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu-ul li a:hover{
+    color: #fff;
+}
+
+.menu-ul li a::before{
+    content: '';
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transition: all .5s;
+}
+
+.menu-ul li a:hover::before{
+    width: 100%;
+}
+
+.sec-1{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.sec-text{
+    font-size: 64px;
+    letter-spacing: -2.5px;
+}
+
+.sec-3{
+    height: 400px;
+}
+
+.sec-5{
+    margin-top: 50px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+.sec-6{
+    margin-top: 50px;
+    height: 550px;
+}
+
+footer{
+    height: 250px;
+}
+
+.fa-brands:hover{
+    cursor: pointer;
+    color: #45474B;
+    transition: all .2s;
+}

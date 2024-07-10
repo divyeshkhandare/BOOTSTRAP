@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.sec-1-img{
+    width: 30%;
+    left: 16%;
+    top: 120px;
+}
+.sec-2-img{
+    width: 25%;
+    bottom: 120px;
+    right: 11%;
+}
+.main-txt{
+    padding-top: 650px;
+    padding-left: 100px;
+}
+.main-txt-first{
+    font-size: 52px;
+    font-weight: 900;
+}
+.main-column{
+    max-height: 80vh;
+}
+.sec-1{
+    max-height: 20vh;
+}
+.container-fluid{
+    max-height: 100vh;
+}
